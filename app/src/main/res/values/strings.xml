@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">VJRC</string>
+    <string name="todo">TODO</string>
+    <string name="vjrc_cmsys_system">VIJAYGARH JYOTISH RAY COLLEGE</string>
+    <string name="feedback">feedback</string>
+    <string name="cmsys">CMSYS</string>
+    <string name="teacher_s_diary">Teachers Diary</string>
+    <string name="button">Button</string>
+    <string name="Home">Home</string>
+    <string name="default_notification_channel_id">Notification</string>
+    <string name="fcm_message">Notification</string>
+</resources>

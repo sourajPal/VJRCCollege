@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "474070069591",
+    "firebase_url": "https://cloudmsg-4be61.firebaseio.com",
+    "project_id": "cloudmsg-4be61",
+    "storage_bucket": "cloudmsg-4be61.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474070069591:android:2631e21af329aa77994e12",
+        "android_client_info": {
+          "package_name": "com.vijaygarhjrcollege"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474070069591-4nbs05g0cr1bc0ilsp810lng29srfrat.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vijaygarhjrcollege",
+            "certificate_hash": "1d4550c966dc0f558ade7b12f6a95c65e9d2f29e"
+          }
+        },
+        {
+          "client_id": "474070069591-dk5bt4ugcaqo28vrgjqvkligaj38jspr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBADgs8WoLoZSppPd-UOZhPTcj_MxACOrw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474070069591-dk5bt4ugcaqo28vrgjqvkligaj38jspr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

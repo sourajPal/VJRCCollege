@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="top"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar">
+    </include>
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="90dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingTop="0dp"
+            android:paddingBottom="20dp">
+
+            <Button
+                android:id="@+id/home"
+                android:layout_width="101dp"
+                android:layout_height="104dp"
+                android:background="@drawable/home"
+                android:onClick="home"
+                android:text="@string/Home"
+                android:textSize="0sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/feedback"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:background="@drawable/feedback"
+                android:gravity="center"
+                android:onClick="feed"
+                android:text="@string/feedback"
+                android:textSize="0sp"
+                tools:ignore="ButtonStyle" />
+
+            <TextView
+                android:layout_width="39dp"
+                android:layout_height="match_parent"
+                android:background="#51b2ff"
+                android:gravity="center"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/CMSYS"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:background="@drawable/cmsys"
+                android:gravity="center"
+                android:onClick="cms"
+                android:text="@string/cmsys"
+                android:textSize="0sp"
+                tools:ignore="ButtonStyle" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="20dp">
+
+            <Button
+                android:id="@+id/Tdiary"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:background="@drawable/teachers"
+                android:gravity="center"
+                android:onClick="td"
+                android:text="@string/teacher_s_diary"
+                android:textSize="0sp"
+                tools:ignore="ButtonStyle" />
+            <TextView
+                android:layout_width="39dp"
+                android:layout_height="match_parent"
+                android:background="#51b2ff"
+                android:gravity="center"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/qrscanner"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:background="@drawable/cmsys"
+                android:gravity="center"
+                android:onClick="qrs"
+                android:text="@string/cmsys"
+                android:textSize="0sp"
+                tools:ignore="ButtonStyle" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
